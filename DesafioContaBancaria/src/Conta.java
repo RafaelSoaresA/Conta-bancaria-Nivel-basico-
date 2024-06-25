@@ -1,6 +1,6 @@
 public class Conta {
 
-    //Variáveis delcaradas
+    //Variáveis declaradas
     private String nome;
     private String tipoConta;
     private double saldo;
