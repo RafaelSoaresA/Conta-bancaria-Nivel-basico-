@@ -1,14 +1,18 @@
 public class Conta {
 
+    //Variáveis delcaradas
     private String nome;
     private String tipoConta;
     private double saldo;
+
+    //Método construtor
     public Conta(String nome, String tipoConta, double saldo) {
         this.nome = nome;
         this.tipoConta = tipoConta;
         this.saldo = saldo;
     }
 
+    //Getters & Setters
     public String getNome() {
         return nome;
     }
